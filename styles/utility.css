@@ -11,7 +11,7 @@
   padding-inline: var(--px-lg);
 }
 .container {
-  border: 1px solid red;
+  
   --max-width: 375px;
   margin-inline: auto;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
