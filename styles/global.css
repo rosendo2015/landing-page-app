@@ -29,21 +29,21 @@
   --text-color-secondary: #a1a1aa;
   --text-color-primary: #f4f4f5;
 
-  --font-family-inter: 'Inter', sans-serif;
-  --font-weight-base: 400;
-  --font-weight-md: 500;
-  --font-weight-bold: 800;
+  --ff-inter: 'Inter', sans-serif;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
 
-  --font-size-sm: 0.875rem;
-  --font-size-base: 1rem;
-  --font-size-lg: 1.25rem;
-  --font-size-xl: 1.5rem;
-  --font-size-2xl: 2.5rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
 }
 html {
-  font-family: var(--font-family-inter);
-  font-weight: var(--font-weight-base);
-  font-size: var(--font-size-base);
+  font-family: var(--ff-inter);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-primary);
 }
