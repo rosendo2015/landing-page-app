@@ -45,11 +45,13 @@
   }
   &::after {
     content: attr(aria-label);
+    color: transparent;
     background: var(--brand-gradient);
+    position: relative;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    position: relative;
     z-index: 1;
+    /*
+    */
   }
 }

@@ -29,7 +29,7 @@
   --text-color-secondary: #a1a1aa;
   --text-color-primary: #f4f4f5;
 
-  --ff-inter: 'Inter', sans-serif;
+  --ff-inter: "Inter", sans-serif;
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 800;
@@ -71,7 +71,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
-ul[role='list'] {
+a:hover {
+  background: var(--brand-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+ul[role="list"] {
   list-style: none;
 }
 
