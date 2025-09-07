@@ -54,7 +54,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--fw-bold);
   color: var(--text-color-primary);
   letter-spacing: -0.04em;
 }
@@ -72,7 +72,7 @@ a {
   color: inherit;
 }
 a:hover {
-  background: var(--brand-gradient);
+  background-image: var(--brand-gradient);
 
   -webkit-background-clip: text;
   background-clip: text;
@@ -80,6 +80,10 @@ a:hover {
 }
 ul[role="list"] {
   list-style: none;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
