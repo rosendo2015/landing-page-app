@@ -1,7 +1,7 @@
 #hero {
   text-align: center;
 
-  &img[src*="music"] {
+  & img[src*="music"] {
     width: 12.875rem;
   }
   h1 {

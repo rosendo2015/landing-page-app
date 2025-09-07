@@ -59,13 +59,13 @@ h3 {
   letter-spacing: -0.04em;
 }
 h1 {
-  font-size: var(--font-size-2xl);
+  font-size: var(--fs-2xl);
 }
 h2 {
-  font-size: var(--font-size-xl);
+  font-size: var(--fs-xl);
 }
 h3 {
-  font-size: var(--font-size-lg);
+  font-size: var(--fs-lg);
 }
 a {
   text-decoration: none;
@@ -84,9 +84,9 @@ ul[role="list"] {
 
 @media (width >= 80em) {
   :root {
-    --font-size-lg: 2rem;
-    --font-size-xl: 3rem;
-    --font-size-2xl: 4rem;
+    --fs-lg: 2rem;
+    --fs-xl: 3rem;
+    --fs-2xl: 4rem;
 
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
