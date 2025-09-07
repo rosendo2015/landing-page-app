@@ -21,6 +21,8 @@
 .btn:hover {
   background: var(--brand-gradient);
   color: var(--surface-color);
+  -webkit-background-clip: initial;
+  background-clip: initial;
 }
 .btn-sm {
   padding: 0.5rem 1rem;
