@@ -40,6 +40,9 @@ footer {
 
       & nav {
         margin-left: auto;
+        & ul {
+          width: 14rem;
+        }
       }
     }
   }
