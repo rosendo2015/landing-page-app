@@ -1,6 +1,6 @@
 # Prática de Aulas - Criação de um landing page.
 
-![preview](.github/preview.png)
+![preview](github/preview.png)
 
 > Trilha FullStack - Projeto feito para prática de aula - Criação de landing page - Rocketseat :rocket:.
 
